@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest package="com.saqibhandymanab.app" xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name" android:largeHeap="true"
+        android:name="com.saqibhandymanab.app.appcomponents.di.MyApp"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true" android:theme="@style/Theme.MyApp" android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedulehourthree.ui.ScheduleHourThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.detailshandyman.ui.DetailsHandymanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.chats.ui.ChatsActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.chatshandyman.ui.ChatsHandymanActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedulecalendartwo.ui.ScheduleCalendarTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.confirm.ui.ConfirmActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.handymanlogin.ui.HandymanLogInActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedule.ui.ScheduleActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.bookingsone.ui.BookingsOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.handymanlist.ui.HandymanListActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.clientprofilecontainer.ui.ClientProfileContainerActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.signupone.ui.SignUpOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.chatclient.ui.ChatClientActivity" android:screenOrientation="portrait"/>
+        <activity android:exported="true"
+            android:name="com.saqibhandymanab.app.modules.landing.ui.LandingActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedulehourtwo.ui.ScheduleHourTwoActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.signup.ui.SignUpActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.customerlogin.ui.CustomerLogInActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.cancelfinishworking.ui.CancelFinishWorkingActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.finishone.ui.FinishOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.ordersummary.ui.OrderSummaryActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.home.ui.HomeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedulehour1.ui.ScheduleHour1Activity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedulecalendarone.ui.ScheduleCalendarOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.handymanprofile.ui.HandymanProfileActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.homeone.ui.HomeOneActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.schedulecalendarthree.ui.ScheduleCalendarThreeActivity" android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.saqibhandymanab.app.modules.finish.ui.FinishActivity" android:screenOrientation="portrait"/>
+    </application>
+</manifest>
