@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="listwallrepairOneRowModel" type="com.saqibhandymanab.app.modules.schedulecalendartwo.data.model.ListwallrepairOneRowModel"/>
+    </data>
+    <LinearLayout android:id="@+id/linearRowwallrepair"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:orientation="horizontal">
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnwallrepairOne"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_6pxh"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.6" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtWallrepairOne"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{listwallrepairOneRowModel.txtWallrepairOne}"
+                style="@style/txtInterregular12_4" tools:text="@string/lbl_wall_repair2"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtPlumping"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:layout_marginStart="@dimen/_1pxh"
+                android:layout_marginTop="@dimen/_3pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{listwallrepairOneRowModel.txtPlumping}"
+                style="@style/txtInterregular12_4" tools:text="@string/lbl_plumping"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="start"
+            android:id="@+id/linearColumnwallpainting"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1pxv"
+            android:layout_weight="0.4" android:layout_width="0dp" android:orientation="vertical">
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtWallpainting"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{listwallrepairOneRowModel.txtWallpainting}"
+                style="@style/txtInterregular12_4" tools:text="@string/lbl_wall_painting"/>
+            <TextView android:ellipsize="end"
+                android:id="@+id/txtWalldecoration"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_1pxv"
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="@dimen/_3pxh"
+                android:singleLine="true"
+                android:text="@{listwallrepairOneRowModel.txtWalldecoration}"
+                style="@style/txtInterregular12_4" tools:text="@string/lbl_wall_decoration"/>
+        </LinearLayout>
+    </LinearLayout>
+</layout>
